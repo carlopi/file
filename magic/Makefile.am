@@ -386,5 +386,3 @@ ${MAGIC}: $(MAGIC_FRAGMENTS) $(FILE_COMPILE_DEP)
 		exit 1; \
 	    fi; \
 	  fi)
-	$(FILE_COMPILE) -C -m magic
-	@rm -fr magic
